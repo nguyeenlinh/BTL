@@ -16,24 +16,6 @@ namespace BTLNET2.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.1");
 
-            modelBuilder.Entity("BTL_NET2.Models.Register", b =>
-                {
-                    b.Property<string>("RegisterID")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("RegisterMK")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("RegisterName")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("RegisterID");
-
-                    b.ToTable("Registers");
-                });
-
             modelBuilder.Entity("BTL_NET2.Models.Student", b =>
                 {
                     b.Property<string>("StudentID")
@@ -88,6 +70,24 @@ namespace BTLNET2.Migrations
                     b.HasKey("TeacherID");
 
                     b.ToTable("Teachers");
+                });
+
+            modelBuilder.Entity("BTL_NET2.Models.User", b =>
+                {
+                    b.Property<string>("ID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

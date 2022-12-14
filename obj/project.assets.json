@@ -10037,31 +10037,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "F:\\NuGetPackages": {}
+    "/Users/bogdev/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TH_NET2\\BTL_NET2\\BTL_NET2.csproj",
+      "projectUniqueName": "/Users/bogdev/Dev/asp.net/linhlo/BTL/BTL_NET2.csproj",
       "projectName": "BTL_NET2",
-      "projectPath": "F:\\TH_NET2\\BTL_NET2\\BTL_NET2.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\TH_NET2\\BTL_NET2\\obj\\",
+      "projectPath": "/Users/bogdev/Dev/asp.net/linhlo/BTL/BTL_NET2.csproj",
+      "packagesPath": "/Users/bogdev/.nuget/packages/",
+      "outputPath": "/Users/bogdev/Dev/asp.net/linhlo/BTL/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "F:\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/bogdev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10114,7 +10107,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

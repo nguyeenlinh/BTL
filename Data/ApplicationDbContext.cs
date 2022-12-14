@@ -10,7 +10,7 @@ namespace BTL_NET2.Data
 
         }
         public DbSet<Student> Students { get; set; }
-        public DbSet<Register> Registers { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
     }
 }
