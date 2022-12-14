@@ -49,7 +49,6 @@ namespace BTL_NET2.Controllers
     }
 
     [HttpPost]
-    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Login(User user)
     {
       try
